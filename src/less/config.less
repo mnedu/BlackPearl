@@ -1,0 +1,37 @@
+/* Typography settings */
+@bp-font: Arial, Helvetica, Sans-Serif;
+@bp-font-size: 14px;
+@bp-font-color: #404040;
+@bp-header-start: 180%;
+@bp-font-color-special: #909090;
+
+/* Interactive colors */
+@bp-link-color: #FF64BE;
+@bp-link-color-hover: #A60060;
+@bp-highlight-color: lighten(@bp-link-color, 25);
+
+/* Borders */
+@bp-subtle-border: #D0D0D0; /* Used for underlines and side borders on address, blockquote, etc */
+
+/* Navigation settings */
+@bp-nav-height: 44px; /* NOTE: This will actually become larger by a factor of the padding percent * 2 */
+@bp-nav-padding-pct: 5; /* Percent of padding to add to top nav container, making the overall height: (nav-height + padding-pct * 2) */
+
+@bp-nav-bg: #161616;
+@bp-nav-bg-hover: #DDDDDD;
+@bp-nav-sub-bg: darken(@bp-nav-bg, 8);
+@bp-nav-item-wpad: 16px; /* Pad L and R - MUST BE px */
+@bp-nav-sub-item-height: @bp-font-size + 12%;
+@bp-nav-sub-width: 250px;
+
+/* Form elements */
+@bp-form-disabled: #F0F0F0;
+@bp-textarea-max-width: 700px;
+@bp-form-focus-border: darken(@bp-highlight-color, 10);
+@bp-form-focus-background: lighten(@bp-highlight-color, 5);
+
+/* Button colors */
+@bp-color-red: #C43131;
+@bp-color-green: #398E35;
+@bp-color-gold: #FCEB70;
+@bp-color-action: #386DAD;
